@@ -1,0 +1,10 @@
+{
+  "name": "شركة قطينة والحسام العالمية لتحويلات المالية",
+  "description": "نظام مالي وإداري فاخر للتحويلات المالية الدولية ومتابعة الحسابات البنكية وحساب العمولات والمراسلات الداخلية والأرشفة.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
