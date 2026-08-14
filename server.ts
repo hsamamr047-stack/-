@@ -12,8 +12,8 @@ import {
 } from "./src/data/initialData.js";
 import { TransferOrder, ArchivedInvoice, Message, BankAccount, User } from "./src/types.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = process.cwd();
+
 
 // In-memory data store for server state persistence
 let usersState: User[] = [...INITIAL_USERS];
